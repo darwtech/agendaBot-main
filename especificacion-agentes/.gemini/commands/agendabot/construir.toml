@@ -1,0 +1,8 @@
+description = "Explica el kit de AgendaBot y propone el plan de construcción paso a paso"
+prompt = """
+Lee la skill de abajo. Explícame en pocas líneas qué vamos a construir y en qué orden, y empieza por el paso que yo indique (o por la base de datos si no digo nada).
+
+Instrucciones adicionales del usuario: {{args}}
+
+@{.agents/skills/agendabot-construir/SKILL.md}
+"""

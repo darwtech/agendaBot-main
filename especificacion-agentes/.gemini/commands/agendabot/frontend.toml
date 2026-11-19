@@ -1,0 +1,20 @@
+description = "Construye desde cero el frontend de AgendaBot"
+prompt = """
+Actúa como el agente de frontend de abajo y construye su parte siguiendo las skills.
+
+Instrucciones adicionales del usuario: {{args}}
+
+@{.agents/skills/agendabot-construir/SKILL.md}
+
+@{.gemini/agents/agendabot-frontend.md}
+
+@{.agents/skills/agendabot-contrato-api/SKILL.md}
+
+@{.agents/skills/agendabot-frontend/SKILL.md}
+
+@{.agents/skills/agendabot-modelos-ia/SKILL.md}
+
+@{.agents/skills/agendabot-pantallas-cuenta/SKILL.md}
+
+@{.agents/skills/agendabot-imagenes/SKILL.md}
+"""

@@ -1,0 +1,95 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-display: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+    --font-sans: "DM Sans", system-ui, -apple-system, sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+    --accent-50: #ecfdf5;
+    --accent-100: #d1fae5;
+    --accent-500: #10b981;
+    --accent-600: #059669;
+    --accent-700: #047857;
+    --accent-fg: #ffffff;
+  }
+
+  [data-accent="emerald"] {
+    --accent-50: #ecfdf5;
+    --accent-100: #d1fae5;
+    --accent-500: #10b981;
+    --accent-600: #059669;
+    --accent-700: #047857;
+    --accent-fg: #ffffff;
+  }
+
+  [data-accent="blue"] {
+    --accent-50: #eff6ff;
+    --accent-100: #dbeafe;
+    --accent-500: #3b82f6;
+    --accent-600: #2563eb;
+    --accent-700: #1d4ed8;
+    --accent-fg: #ffffff;
+  }
+
+  [data-accent="amber"] {
+    --accent-50: #fffbeb;
+    --accent-100: #fef3c7;
+    --accent-500: #f59e0b;
+    --accent-600: #d97706;
+    --accent-700: #b45309;
+    --accent-fg: #ffffff;
+  }
+
+  [data-accent="rose"] {
+    --accent-50: #fff1f2;
+    --accent-100: #ffe4e6;
+    --accent-500: #f43f5e;
+    --accent-600: #e11d48;
+    --accent-700: #be123c;
+    --accent-fg: #ffffff;
+  }
+
+  [data-accent="slate"] {
+    --accent-50: #f8fafc;
+    --accent-100: #f1f5f9;
+    --accent-500: #475569;
+    --accent-600: #1e293b;
+    --accent-700: #0f172a;
+    --accent-fg: #ffffff;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@layer base {
+  ::selection {
+    background: var(--accent-100);
+    color: var(--accent-700);
+  }
+  input, textarea {
+    caret-color: var(--accent-600);
+  }
+}

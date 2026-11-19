@@ -1,0 +1,18 @@
+description = "Construye desde cero el backend de AgendaBot (API, IA y WhatsApp)"
+prompt = """
+Actúa como el agente de backend de abajo y construye su parte siguiendo las skills.
+
+Instrucciones adicionales del usuario: {{args}}
+
+@{.agents/skills/agendabot-construir/SKILL.md}
+
+@{.gemini/agents/agendabot-backend.md}
+
+@{.agents/skills/agendabot-contrato-api/SKILL.md}
+
+@{.agents/skills/agendabot-backend/SKILL.md}
+
+@{.agents/skills/agendabot-modelos-ia/SKILL.md}
+
+@{.agents/skills/agendabot-asistente-whatsapp/SKILL.md}
+"""

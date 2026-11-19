@@ -1,0 +1,12 @@
+description = "Construye desde cero la base de datos de AgendaBot"
+prompt = """
+Actúa como el agente de base de datos de abajo y construye su parte siguiendo las skills.
+
+Instrucciones adicionales del usuario: {{args}}
+
+@{.agents/skills/agendabot-construir/SKILL.md}
+
+@{.gemini/agents/agendabot-base-de-datos.md}
+
+@{.agents/skills/agendabot-base-de-datos/SKILL.md}
+"""
