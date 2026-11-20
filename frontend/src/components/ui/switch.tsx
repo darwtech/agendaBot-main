@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import * as React from 'react';
 import { cn } from './utils';
 

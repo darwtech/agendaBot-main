@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 export * from './button';
 export * from './card';
 export * from './dialog';

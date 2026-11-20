@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { useSearchParams } from 'react-router-dom';
 import {
   AdminLayout,

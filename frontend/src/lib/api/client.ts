@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { tenantSlug } from '../tenant';
 
 const API_URL = (import.meta.env.VITE_API_URL ?? '/api').replace(/\/$/, '');

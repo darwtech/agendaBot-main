@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { Label, Card } from '@/components/ui';
 import { RotateCcw } from 'lucide-react';
 import { toast } from 'sonner';

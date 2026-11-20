@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { z } from 'zod';
 import { timeStr } from '../appointments/appointments.schema.js';
 

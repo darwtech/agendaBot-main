@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { z } from 'zod';
 
 export const emailSchema = z.string().trim().toLowerCase().email('Correo inválido').max(200);

@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { freeSlotsByDay } from './slots.js';

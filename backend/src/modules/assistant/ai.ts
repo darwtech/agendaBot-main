@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { env } from '../../config/env.js';
 import { recordLimitError, recordResponse } from './usage.js';
 

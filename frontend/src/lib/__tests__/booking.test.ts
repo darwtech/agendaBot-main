@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { describe, expect, it } from 'vitest';
 import { bookAppointmentPure, getAvailableSlots } from '../booking/slots';
 import { createDefaultSchedule, createDefaultServices } from '../../store/seed';

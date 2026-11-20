@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { hashPassword, verifyPassword } from './password.js';

@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { z } from 'zod';
 import type { AIIntentType, ParsedAIIntent } from '../../store/types';
 import { isValidDateStr, isValidTimeStr } from '../booking/timezone';

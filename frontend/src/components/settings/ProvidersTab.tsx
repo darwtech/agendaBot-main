@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import * as React from 'react';
 import type { LucideIcon } from 'lucide-react';
 import { AlertTriangle, BrainCircuit, Check, CheckCircle2, Eye, EyeOff, KeyRound, Loader2, Save, ServerCog, ShieldCheck, Sparkles, Trash2, WandSparkles, Wifi, XCircle, Zap } from 'lucide-react';

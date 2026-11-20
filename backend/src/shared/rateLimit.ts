@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { HttpError } from './http.js';
 
 const MAX_FAILURES = 10;

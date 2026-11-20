@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import * as React from 'react';
 import { ArrowRight, LockKeyhole, Mail } from 'lucide-react';
 import { AuthShell, FormError, PasswordInput } from '../components/AuthShell';

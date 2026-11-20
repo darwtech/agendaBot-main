@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import type { AIProviderConfig, AIProviderId } from '../../store/types';
 
 export type AIErrorCode =

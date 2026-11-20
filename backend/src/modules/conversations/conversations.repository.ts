@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { tdb } from '../../db/pool.js';
 import type { ConversationCreate, ConversationPatch } from './conversations.schema.js';
 

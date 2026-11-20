@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { Label, Card } from '@/components/ui';
 import { toast } from 'sonner';
 import { IANA_TIMEZONES } from '../../lib/booking/timezone';

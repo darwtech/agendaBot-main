@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import Anthropic, {
   APIConnectionError,
   AuthenticationError,

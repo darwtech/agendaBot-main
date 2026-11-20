@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import type { StateCreator } from 'zustand';
 import { createDefaultSchedule, createDefaultServices } from './seed';
 import type { DaySchedule, ServiceItem, TimeBlock } from './types';

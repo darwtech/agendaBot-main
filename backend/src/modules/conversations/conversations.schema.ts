@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { z } from 'zod';
 
 // Mensajes y borrador se guardan tal cual en `context` (jsonb); solo se limita su tamaño.

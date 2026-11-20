@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { z } from 'zod';
 import { passwordSchema, userUpsertSchema } from '../auth/auth.schema.js';
 

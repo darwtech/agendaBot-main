@@ -1,4 +1,7 @@
 /**
+ * HopperSoft — Creador: Darwin Chavez
+ */
+/**
  * Negocio actual, tomado de la URL /n/<slug>/... al cargar la página.
  * null = sin negocio (modo demo local, o la portada en modo API).
  */

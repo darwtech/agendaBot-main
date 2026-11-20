@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { diffSchedule, rowsToSchedule } from './schedule.schema.js';

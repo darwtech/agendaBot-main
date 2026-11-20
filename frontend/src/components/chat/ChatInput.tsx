@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import * as React from 'react';
 import { SendHorizontal } from 'lucide-react';
 

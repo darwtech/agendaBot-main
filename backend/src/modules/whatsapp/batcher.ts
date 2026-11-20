@@ -1,4 +1,7 @@
 /**
+ * HopperSoft — Creador: Darwin Chavez
+ */
+/**
  * Agrupa lo que llega seguido por la misma clave: espera `quietMs` sin novedades (o como mucho `maxWaitMs`
  * desde el primero) y entrega todo junto. Sirve para contestar una sola vez a quien escribe en varios mensajes.
  */

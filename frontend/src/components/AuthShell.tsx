@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import * as React from 'react';
 import { CalendarCheck, Eye, EyeOff, MessageCircle, Settings2, UserPlus } from 'lucide-react';
 import { Input } from './ui';

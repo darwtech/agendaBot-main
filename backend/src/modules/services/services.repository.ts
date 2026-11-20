@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { tdb, type Db } from '../../db/pool.js';
 import { buildUpdate } from '../../shared/sql.js';
 import type { ServiceCreate, ServicePatch } from './services.schema.js';

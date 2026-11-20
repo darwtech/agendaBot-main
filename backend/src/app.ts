@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import cors from 'cors';
 import express from 'express';
 import { env } from './config/env.js';

@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 interface QuickRepliesProps {
   suggestions: string[];
   onSelect: (text: string) => void;

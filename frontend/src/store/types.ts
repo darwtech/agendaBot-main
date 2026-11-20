@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 export type AIProviderId =
   | 'mock'
   | 'anthropic'

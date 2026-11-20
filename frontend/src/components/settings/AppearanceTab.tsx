@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { Card } from '@/components/ui';
 import { Monitor, Moon, Sun } from 'lucide-react';
 import { useAppStore } from '../../store/useAppStore';

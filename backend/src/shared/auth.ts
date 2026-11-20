@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { createHash, randomBytes, timingSafeEqual } from 'node:crypto';
 import type { Request, RequestHandler } from 'express';
 import { env } from '../config/env.js';

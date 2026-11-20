@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { env } from '../../config/env.js';
 import { migrateTenantSchema } from '../../db/migrations.js';
 import { pool, useSchema, withTransaction } from '../../db/pool.js';

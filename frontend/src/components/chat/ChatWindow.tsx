@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import * as React from 'react';
 import { RotateCcw } from 'lucide-react';
 import { BusinessIcon } from '../BusinessIcon';

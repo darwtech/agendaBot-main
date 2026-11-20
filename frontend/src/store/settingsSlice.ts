@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import type { StateCreator } from 'zustand';
 import { createDefaultSettings, DEFAULT_SYSTEM_PROMPT } from './seed';
 import type { BusinessSettings } from './types';

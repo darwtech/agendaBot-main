@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { createApp } from './app.js';
 import { env } from './config/env.js';
 import { pool } from './db/pool.js';

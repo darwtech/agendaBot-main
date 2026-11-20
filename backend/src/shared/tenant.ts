@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import type { RequestHandler } from 'express';
 import { runInTenant } from '../db/pool.js';
 import { findActiveTenant, type Tenant } from '../modules/platform/tenants.repository.js';

@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import { ApiError, api, buildUrl } from '../api/client';
 

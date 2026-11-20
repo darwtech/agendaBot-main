@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { env } from '../../config/env.js';
 import { tdb, type Db } from '../../db/pool.js';
 import type { SettingsPatch } from './settings.schema.js';

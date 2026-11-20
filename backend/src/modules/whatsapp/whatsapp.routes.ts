@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { Router } from 'express';
 import { z } from 'zod';
 import { actorOf, requireAdmin } from '../../shared/auth.js';

@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import type { AIProviderId } from '../../store/types';
 import { anthropicProvider } from './anthropic';
 import { deepseekProvider } from './deepseek';

@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import * as React from 'react';
 import { CheckCircle2, Info, Loader2, QrCode, Unplug } from 'lucide-react';
 import { toast } from 'sonner';

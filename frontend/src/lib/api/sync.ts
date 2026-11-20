@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { toast } from 'sonner';
 import { useAppStore, type AppStore } from '@/store/useAppStore';
 import { tenantSlug } from '../tenant';

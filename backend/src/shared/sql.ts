@@ -1,4 +1,7 @@
 /**
+ * HopperSoft — Creador: Darwin Chavez
+ */
+/**
  * Construye `col = $n, ...` a partir de un patch parcial, usando un mapa campo→columna.
  * Ignora campos undefined y añade updated_by. Devuelve null si no hay nada que actualizar.
  */

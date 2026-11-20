@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { Card } from '@/components/ui';
 import * as React from 'react';
 import { Search, User } from 'lucide-react';

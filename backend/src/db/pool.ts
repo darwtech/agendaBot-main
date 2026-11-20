@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { AsyncLocalStorage } from 'node:async_hooks';
 import pg from 'pg';
 import { env } from '../config/env.js';

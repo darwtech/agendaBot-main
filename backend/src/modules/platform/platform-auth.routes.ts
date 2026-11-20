@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { Router } from 'express';
 import { pool, runInTenant } from '../../db/pool.js';
 import { generateToken, hashToken } from '../../shared/auth.js';

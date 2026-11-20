@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { tdb, type Db } from '../../db/pool.js';
 
 // $1 = zona horaria del negocio. Fecha y hora se devuelven en hora local del negocio.

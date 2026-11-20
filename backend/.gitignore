@@ -4,3 +4,4 @@ dist/
 sessions/
 backups/
 data/
+.test-account.local

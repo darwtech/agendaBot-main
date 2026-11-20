@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 /** Ilustración del panel de cuenta: un chat que reserva una cita en el calendario. Colores del acento actual. */
 export function AuthIllustration({ className }: { className?: string }) {
   const days = Array.from({ length: 21 }, (_, i) => i);

@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import type { AIIntentType, AIProviderConfig, ParsedAIIntent } from '../../store/types';
 import {
   addDaysToDateStr,

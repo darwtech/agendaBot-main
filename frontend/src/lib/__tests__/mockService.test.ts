@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { describe, expect, it } from 'vitest';
 import { extractService } from '../ai/mock';
 

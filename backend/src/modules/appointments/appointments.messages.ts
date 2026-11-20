@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { DAYS_ES, weekday } from './slots.js';
 
 type Appt = { serviceName: string; date: string; time: string; customerName: string; price?: number };

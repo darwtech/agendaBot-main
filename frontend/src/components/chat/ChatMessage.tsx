@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { AlertCircle } from 'lucide-react';
 import type { ChatMessageItem } from '../../store/types';
 import { cn } from '../ui/utils';

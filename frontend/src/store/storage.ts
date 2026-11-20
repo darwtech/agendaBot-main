@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import type { StateStorage } from 'zustand/middleware';
 
 const memoryFallback = new Map<string, string>();

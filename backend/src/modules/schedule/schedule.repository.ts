@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { tdb, tenantTransaction, type Db } from '../../db/pool.js';
 import { diffSchedule, rowsToSchedule, type DaySchedule, type HoursRow } from './schedule.schema.js';
 

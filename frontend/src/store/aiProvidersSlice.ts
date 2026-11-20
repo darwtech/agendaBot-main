@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import type { StateCreator } from 'zustand';
 import { createDefaultProviders } from './seed';
 import type { AIProviderConfig, AIProviderId } from './types';

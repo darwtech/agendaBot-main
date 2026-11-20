@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { migrateAll } from './migrations.js';
 import { pool } from './pool.js';
 

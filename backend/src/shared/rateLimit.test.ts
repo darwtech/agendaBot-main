@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { assertNotLocked, clearFailures, recordFailure } from './rateLimit.js';

@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 import {

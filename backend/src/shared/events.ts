@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { EventEmitter } from 'node:events';
 import type { RequestHandler } from 'express';
 

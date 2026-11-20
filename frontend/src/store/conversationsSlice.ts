@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import type { StateCreator } from 'zustand';
 import { createEmptyDraft } from './seed';
 import type {

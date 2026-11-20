@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { tenantTransaction } from '../../db/pool.js';
 import { HttpError, notFound } from '../../shared/http.js';
 import { findOrCreateCustomer } from '../customers/customers.repository.js';

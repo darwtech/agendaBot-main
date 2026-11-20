@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 // Gestión de negocios desde la terminal:
 //   npm run tenant:create -- <slug> "<nombre>" <tipo> <correo> "<nombre del dueño>" [contraseña] [zona-horaria]
 //   npm run tenant:user   -- <slug> <correo> "<nombre>" [contraseña]   (crea usuario o restablece contraseña)

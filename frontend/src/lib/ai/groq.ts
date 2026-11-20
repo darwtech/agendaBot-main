@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import type { AIProviderConfig } from '../../store/types';
 import {
   AIProviderError,

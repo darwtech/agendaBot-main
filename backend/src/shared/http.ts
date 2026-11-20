@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import type { ErrorRequestHandler, RequestHandler } from 'express';
 import { z } from 'zod';
 

@@ -1,3 +1,6 @@
+/**
+ * HopperSoft — Creador: Darwin Chavez
+ */
 import { tdb, type Db } from '../../db/pool.js';
 import { hashPassword } from '../../shared/password.js';
 import type { UserUpsert } from './auth.schema.js';
